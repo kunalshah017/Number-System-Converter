@@ -13,5 +13,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build and test with GCC
       run: |
-        g++ -o my_program main.cpp
+        g++ -o my_program main.c
         echo "3" | ./my_program  
